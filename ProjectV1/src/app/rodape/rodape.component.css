@@ -1,0 +1,11 @@
+#rodape {
+    font-size: 70%;
+    position: fixed;
+    width: 100%;
+    margin-left: -113px;
+    margin-right: 10px;
+    bottom: 0;
+    text-align: center;
+    color: goldenrod;
+    background-color: black;
+}

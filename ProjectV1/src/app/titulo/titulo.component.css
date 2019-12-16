@@ -1,0 +1,18 @@
+#titulo {
+    font-family: 'Sail', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(243, 239, 1);
+    color: goldenrod;
+    background-color: black;
+    font-size: 300%;
+}
+
+#gif {
+    width: 10%;
+    right: 10%;
+}
+
+#logo {
+    width: 30%;
+    right: 30%;
+}
