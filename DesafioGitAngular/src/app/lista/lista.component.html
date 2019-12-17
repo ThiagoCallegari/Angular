@@ -1,0 +1,36 @@
+<div class="container-fluid" id="lista">
+    <div *ngFor='let item of users'>
+        <div class="row">
+
+            <div class="col-md-4" id="part1">
+                <p><b>Id:</b> {{ item.id }}</p>
+                <p><b>Name:</b> {{ item.name }}</p>
+                <p><b>User name:</b> {{ item.username }}</p>
+                <p><b>E-mail:</b> {{ item.email }}</p>
+                
+                <br><br>
+            </div>
+            <div class="col-md-4">
+                <p><b>Address</b></p>
+                <p><em>Street:</em> {{ item.address.street }}</p>
+                <p><em>Suite:</em> {{ item.address.suite }}</p>
+                <p><em>City:</em> {{ item.address.city }}</p>
+                <p><em>Zip Code:</em> {{ item.address.zipCode }}</p>
+                <p><em>Latitude:</em> {{ item.address.geo.lat }}</p>
+                <p><em>Longitude:</em> {{ item.address.geo.lng }}</p>
+
+                <br><br>
+            </div>
+            <div class="col-md-4" id="part2">
+                <p><b>Phone:</b> {{ item.phone }}</p>
+                <p><b>Website:</b> {{ item.website }}</p>
+                <p><b>Company</b></p>
+                <p><em>Name:</em> {{ item.company.name }}</p>
+                <p><em>Catch phrase:</em> {{ item.company.catchPhrase }}</p>
+                <p><em>Bs:</em> {{ item.company.bs }}</p>
+                <br><br>
+            </div>
+
+        </div>
+    </div>
+</div>
